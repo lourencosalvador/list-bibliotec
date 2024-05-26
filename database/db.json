@@ -1,0 +1,28 @@
+{
+  "livros": [
+    {
+      "id": "b4d8c334-a469-43b3-b9cf-40b3af1f5bcd",
+      "name": "Programador limpo",
+      "autorname": "Lourenço Cardoso",
+      "price": 200
+    },
+    {
+      "id": "e351ed28-91cf-43a6-82b1-13491c56d069",
+      "name": "pequeno programador",
+      "autorname": "Paulo Sanguli",
+      "price": 40
+    },
+    {
+      "id": "2451f7ca-b848-4bd4-97da-5dbe41e9aba2",
+      "name": "Jornada Backend",
+      "autorname": "Elizeu Gaspar",
+      "price": 70
+    },
+    {
+      "id": "7d9872ab-14e6-4d38-9b49-7a8c3ec30a3e",
+      "name": "Mundo UI",
+      "autorname": "Crisvan ",
+      "price": 200
+    }
+  ]
+}
