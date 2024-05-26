@@ -7,22 +7,10 @@
       "price": 200
     },
     {
-      "id": "e351ed28-91cf-43a6-82b1-13491c56d069",
-      "name": "pequeno programador",
-      "autorname": "Paulo Sanguli",
-      "price": 40
-    },
-    {
-      "id": "2451f7ca-b848-4bd4-97da-5dbe41e9aba2",
-      "name": "Jornada Backend",
-      "autorname": "Elizeu Gaspar",
-      "price": 70
-    },
-    {
-      "id": "7d9872ab-14e6-4d38-9b49-7a8c3ec30a3e",
+      "id": "0e24946f-08f3-4ef4-aab5-cfec090215ed",
       "name": "Mundo UI",
       "autorname": "Crisvan ",
-      "price": 200
+      "price": 2000
     }
   ]
 }
