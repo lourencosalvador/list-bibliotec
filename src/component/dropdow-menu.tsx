@@ -9,12 +9,20 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 
+interface librariProps {
+  id: string;
+  name: string;
+  autorname: string;
+  price: number;
+}
+
 export function DropdownMenuRech({ idBook }: { idBook: string }) {
   const queryClient = useQueryClient()
   const {mutateAsync: DeleteBookFn} = useMutation({
     mutationFn: DeleteBook,
     onSuccess(_, variables) {
       const cached = queryClient.getQueryData(['librari'])
+      console.log(cached)
       queryClient.setQueryData(['librari'], (data: any) => data.filter((item: librariProps) => item.id !== variables))
     }
   })
