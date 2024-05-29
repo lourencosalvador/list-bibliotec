@@ -42,8 +42,6 @@ export function DialogTech() {
   const { mutateAsync: postBoookFn } = useMutation({
     mutationFn: postBook,
     onSuccess(_, variables) {
-      const cached = queryClient.getQueryData(["librari"]);
-
       queryClient.setQueryData(["librari"], (data: librariProps[]) => {
         return [
           ...data,

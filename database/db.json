@@ -11,6 +11,12 @@
       "name": "Mundo UI",
       "autorname": "Crisvan ",
       "price": 2000
+    },
+    {
+      "id": "f0004b3e-112c-4fb2-91dc-78851f37762a",
+      "name": "Jornada Backend",
+      "autorname": "Paulo Sanguli",
+      "price": 90
     }
   ]
 }

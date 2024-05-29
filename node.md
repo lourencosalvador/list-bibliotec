@@ -17,7 +17,6 @@ uso: "test": "vitest"
 
 
 ## Prisma no Nodejs
-
 ->npm i prisma -D
 -> npx prisma init --datasource-provider SQLite
 ->npm i @prisma/client 
