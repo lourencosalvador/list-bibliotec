@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite ",
     "build": "tsc && vite build",
+    "server": "json-server ./database/db.json --watch --port 5000",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
   },

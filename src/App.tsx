@@ -10,6 +10,7 @@ import {
 } from "./components/ui/table";
 import { getDataLibrari } from "./api/get-book";
 import { DropdownMenuRech } from "./component/dropdow-menu";
+import { useEffect } from "react";
 
 
 interface librariProps {
@@ -24,6 +25,11 @@ export default function Home() {
     queryKey: ["librari"],
     queryFn: getDataLibrari,
   });
+  
+
+  useEffect(() => {
+    console.log(librari)
+  }, [])
 
   return (
     <div className=" p-6 max-w-4xl mx-auto ">
